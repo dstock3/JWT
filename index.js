@@ -1,6 +1,9 @@
 //imports
 const express = require("express");
 const mongoose = require('mongoose');
+const dotenv = require('dotenv')
+
+dotenv.config();
 
 //connect to DB
 mongoose.connect(
